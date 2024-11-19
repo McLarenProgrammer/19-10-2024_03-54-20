@@ -1,0 +1,22 @@
+.choose-container {
+    text-align: center;
+    height: 100%;
+    
+}
+
+.choose-content {
+    color: #5a42a8;
+}
+
+.choose-content h1 {
+    font-size: 64px;
+    width: 800px;
+    margin: 200px auto 10px auto;
+}
+
+.choose-content p {
+    font-size: 32px;
+    width: 800px;
+    color: #2B2149;
+    margin: 0 auto 100px auto;
+}

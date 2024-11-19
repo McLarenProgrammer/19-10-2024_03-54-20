@@ -1,0 +1,58 @@
+.main-header {
+    position: relative; /* Задаётся для позиционирования внутренних элементов, т.к теперь относительно этого элемента будут выравниваться элементы с position: absolute*/
+    background-color: #7a60c5;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.main-header-logo {
+    /* Проворачиваем следующий трюк для выравнивания элементов шапки по вертикали без использования flex или grid:
+    мы ставим для элемента position: absolute, задаём его положение по вертикали с помощью top и bottom равным 0
+    (аля прижимаем элеменет к верху родительского контейнера, для которого было задано position: relative), и затем
+    выравниваем элемент по вертикали по центру с помощью margin: auto */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    margin: auto;
+}
+
+.main-header-nav {
+    position: absolute;
+    /* С помощью top и left выравниваем верхний левый угол блока по середине */
+    top: 50%;
+    left: 50%;
+    /* Поскольку мы выровнялиименно левый верхний угол блока, нужно теперь его сместить обратно на половину своей ширины и высоты */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-header-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-header-buttons {
+    position: absolute;
+    top: 0;
+    /* поскольку мы указываем только right, то блок сам прижмётся вправо */
+    right: 30px;
+    bottom: 0;
+    margin: auto;
+    height: 26px;
+}
+
+.main-header-buttons button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 15px;
+    cursor: pointer;
+    height: 26px;
+}
+
+.main-header-buttons img {
+    width: 26px;
+    height: 26px;
+}
