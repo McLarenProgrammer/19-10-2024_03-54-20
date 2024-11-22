@@ -20,3 +20,33 @@
     color: #2B2149;
     margin: 0 auto 100px auto;
 }
+
+.choose-slider {
+    position: relative;
+}
+
+.choose-slider .card {
+    width: 360px;
+    height: 426px;
+    background-color: #2B2149;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Здесь мы используем трюк, похожий на то, что мы делали для шапки, только отдельно применяем стили для
+   первого и последнего элемента с поомщью селекторов :first-child и :last-child, а центральный элемент
+   выровняется за счёт display: inline-box и text-align: center у choose-container */
+.choose-slider .card:first-child {
+    position: absolute;
+    left: 0;
+}
+
+.choose-slider .card:last-child {
+    position: absolute;
+    right: 0;
+}
+
+.choose-slider .card h3 {
+    font-size: 32px;
+    font-weight: 900;
+}
