@@ -129,8 +129,23 @@
 }
 
 .choose-new-text {
+    position: absolute;
     text-align: left;
     width: 50%;
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+}
+
+.choose-new-text h1 {
+    font-size: 64px;
+    color: #5a42a8;
+}
+
+.choose-new-text p {
+    font-size: 32px;
+    color: #2B2149;
+    width: 650px;
 }
 
 .choose-new-img {
