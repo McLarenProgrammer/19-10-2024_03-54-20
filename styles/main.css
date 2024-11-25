@@ -45,10 +45,10 @@ html, body {
     width: 880px;
     margin: auto;
     color: #2B2149;
+    margin-bottom: 50px;
 }
 
-.main-content button {
-    margin-top: 50px;
+button {
     padding: 10px 50px;
     border: 1px solid white;
     border-radius: 15px;

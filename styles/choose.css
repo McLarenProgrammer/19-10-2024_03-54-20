@@ -1,7 +1,5 @@
 .choose-container {
     text-align: center;
-    height: 100%;
-    
 }
 
 .choose-content {
@@ -21,14 +19,11 @@
     margin: 0 auto 100px auto;
 }
 
-.choose-slider {
+.choose-slider-cards {
     position: relative;
 }
 
 .choose-slider .card {
-    width: 360px;
-    height: 426px;
-    background-color: #2B2149;
     display: inline-block;
     text-align: center;
 }
@@ -46,7 +41,104 @@
     right: 0;
 }
 
+
+.card-img {
+    width: 450px;
+    position: relative;
+}
+
+.card-img-main {
+    width: 100%;
+}
+
+.card-img-hit {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
 .choose-slider .card h3 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 900;
+    margin-top: 15px;
+    color: #2B2149;
+}
+
+.choose-slider .card p {
+    font-weight: 900;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.discont {
+    text-decoration: line-through;
+    color: #f04664;
+    margin-left: 10px;
+}
+
+.slider-indicator {
+    position: relative;
+    height: 4px;
+    background-color: #e0e0e0;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.indicator-track {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.indicator-bar {
+    position: absolute;
+    height: 100%;
+    background-color: #6a3adb;
+    width: 50%;
+    left: 0%;
+}
+
+.slider-buttons {
+    margin-top: 25px;
+}
+
+.slider-buttons button {
+    all: unset;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+}
+
+.slider-buttons button:first-child {
+    margin-right: 10px;
+}
+
+.slider-buttons button:last-child {
+    margin-left: 10px;
+}
+
+.choose-new {
+    position: relative;
+    background-color: #f5f9d4;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.choose-new-text {
+    text-align: left;
+    width: 50%;
+}
+
+.choose-new-img {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+
+.choose-new-img img {
+    border-radius: 40px;
 }
