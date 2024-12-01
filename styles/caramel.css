@@ -1,0 +1,19 @@
+.caramel {
+    height: 100%;
+    background-color: #7a60c5;
+}
+
+.caramel-img {
+    height: 100%;
+    width: 942px;
+    float: left;
+}
+
+.caramel-content {
+    color: white;
+    margin-left: 982px;
+}
+
+.caramel-content h1 {
+    font-size: 64px;
+}

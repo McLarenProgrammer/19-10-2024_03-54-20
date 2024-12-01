@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('choose.css');
+@import url('caramel.css');
 
 * {
     margin: 0;
@@ -13,7 +14,8 @@ html, body {
 
 .content {
     width: 1500px;
-    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-container {
