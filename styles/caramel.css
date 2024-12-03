@@ -1,4 +1,5 @@
 .caramel {
+    position: relative;
     height: 100%;
     background-color: #7a60c5;
 }
@@ -10,10 +11,72 @@
 }
 
 .caramel-content {
+    position: absolute;
     color: white;
-    margin-left: 982px;
+    top: 50%;
+    left: 982px;
+    transform: translateY(-50%);
+    width: 780px;
 }
 
-.caramel-content h1 {
+.caramel-content p {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.caramel-content-header {
+    position: relative;
+}
+
+.caramel-content-header h1 {
     font-size: 64px;
+}
+
+.caramel-content-header .caramel-eval {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 24px;
+    transform: translateY(-25%);
+}
+
+.caramel-eval img {
+    width: 18px;
+    height: 18px;
+}
+
+.caramel-select {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.caramel-select button {
+    display: inline-block;
+    padding: 0;
+}
+
+.caramel-select button:first-child {
+    position: absolute;
+    left: 0;
+}
+
+.caramel-select button:last-child {
+    position: absolute;
+    right: 0;
+}
+
+.caramel-select button div:first-child {
+    border-bottom: 1px solid white;
+    padding: 25px 30px;
+}
+
+.caramel-select button div:last-child {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.caramel-select .selected {
+    
 }
