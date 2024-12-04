@@ -55,6 +55,8 @@
 .caramel-select button {
     display: inline-block;
     padding: 0;
+    width: 205px;
+    height: 160px;
 }
 
 .caramel-select button:first-child {
@@ -78,5 +80,21 @@
 }
 
 .caramel-select .selected {
-    
+    background-color: #d0d5fd;
+    color: #5d41a8;
+}
+
+.counter {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.counter button {
+    border: none;
+}
+
+.counter input {
+    width: auto;
+    height: 100%;
 }
