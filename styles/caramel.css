@@ -79,22 +79,61 @@
     padding-bottom: 25px;
 }
 
-.caramel-select .selected {
+.selected {
     background-color: #d0d5fd;
     color: #5d41a8;
 }
 
+.caramel-select-buy {
+    width: 100%;
+    margin-top: 55px;
+}
+
 .counter {
     display: inline-block;
+    position: relative;
+    text-align: center;
     border: 1px solid white;
     border-radius: 15px;
+    width: 205px;
+    height: 58px;
+    margin-right: 77px;
 }
 
 .counter button {
+    position: absolute;
     border: none;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.counter button:first-child {
+    left: 15px;
+}
+
+.counter button:last-child {
+    right: 15px;
+}
+
+.counter button img {
+    width: 16px;
+    height: 16px;
 }
 
 .counter input {
-    width: auto;
+    color: white;
+    background-color: #7a60c5;
+    font-size: 24px;
+    text-align: center;
+    border: none;
     height: 100%;
+    width: 50px;
+    outline: none;
+}
+
+.caramel-select-buy > button {
+    width: calc(100% - 211px - 82.5px); /* Для того, чтобы кнопка была нужной ширины, считаем её с помощью calc */
+    display: inline-block;
+    height: 58px;
 }

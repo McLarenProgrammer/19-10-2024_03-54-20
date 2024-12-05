@@ -1,0 +1,29 @@
+.advantages {
+    margin-top: 150px;
+}
+
+.all-need-desert {
+    display: block;
+    height: 510px;
+}
+
+.all-need-desert-content {
+    float: left;
+    width: 650px;
+}
+
+.all-need-desert-content h1 {
+    font-size: 52px;
+    color: #5a42a8;
+}
+
+.all-need-desert-content p {
+    font-size: 28px;
+    color: #2B2149;
+    margin-top: 20px;
+}
+
+.all-need-desert-img {
+    float: right;
+    height: 100%;
+}
