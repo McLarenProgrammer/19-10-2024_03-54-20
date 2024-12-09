@@ -1,0 +1,67 @@
+footer {
+    background-color: #7a60c5;
+    padding: 50px 160px 30px 160px;
+}
+
+footer .navigation {
+    position: relative;
+}
+
+footer .navigation-links {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+footer .navigation-links .navigation-links-column {
+    display: inline-block;
+    text-align: right;
+}
+
+footer .navigation-links .navigation-links-column a {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    display: block;
+}
+
+footer .navigation-links .navigation-links-column:first-child {
+    margin-right: 45px;;
+}
+
+footer .other {
+    position: relative;
+    margin-top: 80px;
+}
+
+footer .other .socials {
+    display: inline-block;
+}
+
+footer .other .socials a {
+    margin-left: 10px;
+}
+
+footer .other .socials a:first-child {
+    margin-left: 0px;
+}
+
+footer .other .official-docs {
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    right: 0;
+}
+
+footer .other .official-docs a {
+    display: block;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+footer .other .official-docs span {
+    color: white;
+    font-size: 14px;
+}
