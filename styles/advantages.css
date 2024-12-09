@@ -1,5 +1,5 @@
 .advantages {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .all-need-desert {
@@ -26,4 +26,39 @@
 .all-need-desert-img {
     float: right;
     height: 100%;
+}
+
+.features {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    text-align: center;
+    width: 470px;
+}
+
+.feature h3 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #5a42a8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    font-size: 26px;
+    color: #2B2149;
+}
+
+.feature:first-child {
+    position: absolute;
+    left: 0;
+}
+
+.feature:last-child {
+    position: absolute;
+    right: 0;
 }
